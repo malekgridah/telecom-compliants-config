@@ -1,0 +1,13 @@
+info: # Application-Info for the Info-Actuator
+  group: "@pom.groupId@"
+  artifact: "@pom.artifactId@"
+  name: "@pom.name@"
+  description: "@pom.description@"
+  version: "@pom.version@"
+  spring-boot: "@spring-boot.version@"
+  spring-cloud: "@spring-cloud.version@"
+  # Tags for the Spring Boot Admin UI
+  tags:
+    version: "@pom.version@"
+    spring-boot: "@spring-boot.version@"
+    spring-cloud: "@spring-cloud.version@"
